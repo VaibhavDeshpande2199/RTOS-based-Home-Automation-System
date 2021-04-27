@@ -1,0 +1,104 @@
+Dependencies for Project 'porting', Target 'Target 1': (DO NOT MODIFY !)
+F (..\APP\main.c)(0x5F8C4FD5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\APP\config.h)(0x4487F35C)
+I (..\APP\Includes.h)(0x44880848)
+I (..\APP\..\uCosii\os_cpu.h)(0x44869AE4)
+I (..\APP\os_cfg.h)(0x595B8ACC)
+I (..\APP\..\uCosii\ucos_ii.h)(0x3C518364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (..\APP\LPC214x.h)(0x433CBB08)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\setjmp.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\rt_misc.h)(0x51C7E87C)
+I (..\APP\target.h)(0x41679840)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x532C1500)
+F (..\APP\target.c)(0x5F74703C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\target.o --omf_browse .\target.crf --depend .\target.d)
+I (..\APP\config.h)(0x4487F35C)
+I (..\APP\Includes.h)(0x44880848)
+I (..\APP\..\uCosii\os_cpu.h)(0x44869AE4)
+I (..\APP\os_cfg.h)(0x595B8ACC)
+I (..\APP\..\uCosii\ucos_ii.h)(0x3C518364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (..\APP\LPC214x.h)(0x433CBB08)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\setjmp.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\rt_misc.h)(0x51C7E87C)
+I (..\APP\target.h)(0x41679840)
+I (C:\Keil\ARM\Inc\Philips\LPC21XX.H)(0x532C1500)
+F (..\APP\IRQ.s)(0x44869F74)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\irq.lst --xref -o .\irq.o --depend .\irq.d)
+F (..\APP\Startup.s)(0x44880CBA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (..\uCosii\OS_CORE.C)(0x5F4F7CAE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\os_core.o --omf_browse .\os_core.crf --depend .\os_core.d)
+I (..\uCosii\..\APP\includes.h)(0x44880848)
+I (..\uCosii\..\APP\..\uCosii\os_cpu.h)(0x44869AE4)
+I (..\uCosii\..\APP\os_cfg.h)(0x595B8ACC)
+I (..\uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C518364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+F (..\uCosii\OS_CPU.H)(0x44869AE4)()
+F (..\uCosii\OS_FLAG.C)(0x4488088E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\os_flag.o --omf_browse .\os_flag.crf --depend .\os_flag.d)
+I (..\uCosii\..\APP\includes.h)(0x44880848)
+I (..\uCosii\..\APP\..\uCosii\os_cpu.h)(0x44869AE4)
+I (..\uCosii\..\APP\os_cfg.h)(0x595B8ACC)
+I (..\uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C518364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+F (..\uCosii\OS_MBOX.C)(0x44880854)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\os_mbox.o --omf_browse .\os_mbox.crf --depend .\os_mbox.d)
+I (..\uCosii\..\APP\includes.h)(0x44880848)
+I (..\uCosii\..\APP\..\uCosii\os_cpu.h)(0x44869AE4)
+I (..\uCosii\..\APP\os_cfg.h)(0x595B8ACC)
+I (..\uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C518364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+F (..\uCosii\OS_MEM.C)(0x4488088E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\os_mem.o --omf_browse .\os_mem.crf --depend .\os_mem.d)
+I (..\uCosii\..\APP\includes.h)(0x44880848)
+I (..\uCosii\..\APP\..\uCosii\os_cpu.h)(0x44869AE4)
+I (..\uCosii\..\APP\os_cfg.h)(0x595B8ACC)
+I (..\uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C518364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+F (..\uCosii\OS_MUTEX.C)(0x4488088E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\os_mutex.o --omf_browse .\os_mutex.crf --depend .\os_mutex.d)
+I (..\uCosii\..\APP\includes.h)(0x44880848)
+I (..\uCosii\..\APP\..\uCosii\os_cpu.h)(0x44869AE4)
+I (..\uCosii\..\APP\os_cfg.h)(0x595B8ACC)
+I (..\uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C518364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+F (..\uCosii\OS_Q.C)(0x4488088E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\os_q.o --omf_browse .\os_q.crf --depend .\os_q.d)
+I (..\uCosii\..\APP\includes.h)(0x44880848)
+I (..\uCosii\..\APP\..\uCosii\os_cpu.h)(0x44869AE4)
+I (..\uCosii\..\APP\os_cfg.h)(0x595B8ACC)
+I (..\uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C518364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+F (..\uCosii\OS_SEM.C)(0x4488088E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\os_sem.o --omf_browse .\os_sem.crf --depend .\os_sem.d)
+I (..\uCosii\..\APP\includes.h)(0x44880848)
+I (..\uCosii\..\APP\..\uCosii\os_cpu.h)(0x44869AE4)
+I (..\uCosii\..\APP\os_cfg.h)(0x595B8ACC)
+I (..\uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C518364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+F (..\uCosii\OS_TASK.C)(0x4488FB46)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\os_task.o --omf_browse .\os_task.crf --depend .\os_task.d)
+I (..\uCosii\..\APP\includes.h)(0x44880848)
+I (..\uCosii\..\APP\..\uCosii\os_cpu.h)(0x44869AE4)
+I (..\uCosii\..\APP\os_cfg.h)(0x595B8ACC)
+I (..\uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C518364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+F (..\uCosii\OS_TIME.C)(0x4488086C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\os_time.o --omf_browse .\os_time.crf --depend .\os_time.d)
+I (..\uCosii\..\APP\includes.h)(0x44880848)
+I (..\uCosii\..\APP\..\uCosii\os_cpu.h)(0x44869AE4)
+I (..\uCosii\..\APP\os_cfg.h)(0x595B8ACC)
+I (..\uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C518364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+F (..\uCosii\uCOS_II.H)(0x3C518364)()
+F (..\ARM\Os_cpu_a.s)(0x4E7CC0A6)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\os_cpu_a.lst --xref -o .\os_cpu_a.o --depend .\os_cpu_a.d)
+F (..\ARM\Os_cpu_c.c)(0x44880BAA)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\os_cpu_c.o --omf_browse .\os_cpu_c.crf --depend .\os_cpu_c.d)
+I (..\ARM\..\APP\config.h)(0x4487F35C)
+I (..\ARM\..\APP\Includes.h)(0x44880848)
+I (..\ARM\..\APP\..\uCosii\os_cpu.h)(0x44869AE4)
+I (..\ARM\..\APP\os_cfg.h)(0x595B8ACC)
+I (..\ARM\..\APP\..\uCosii\ucos_ii.h)(0x3C518364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (..\ARM\..\APP\LPC214x.h)(0x433CBB08)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\setjmp.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\rt_misc.h)(0x51C7E87C)
+I (..\ARM\..\APP\target.h)(0x41679840)

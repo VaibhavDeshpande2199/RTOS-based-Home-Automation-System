@@ -1,0 +1,16 @@
+.\main.o: ..\APP\main.c
+.\main.o: ..\APP\config.h
+.\main.o: ..\APP\Includes.h
+.\main.o: ..\APP\..\uCosii\os_cpu.h
+.\main.o: ..\APP\os_cfg.h
+.\main.o: ..\APP\..\uCosii\ucos_ii.h
+.\main.o: G:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\main.o: ..\APP\LPC214x.h
+.\main.o: G:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\main.o: G:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\main.o: G:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\main.o: G:\Keil\ARM\ARMCC\bin\..\include\setjmp.h
+.\main.o: G:\Keil\ARM\ARMCC\bin\..\include\rt_misc.h
+.\main.o: ..\APP\target.h
+.\main.o: G:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: G:\Keil\ARM\Inc\Philips\LPC21xx.H

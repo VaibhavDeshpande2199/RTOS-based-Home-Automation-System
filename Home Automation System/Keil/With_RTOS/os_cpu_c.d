@@ -1,0 +1,14 @@
+.\os_cpu_c.o: ..\ARM\Os_cpu_c.c
+.\os_cpu_c.o: ..\ARM\..\APP\config.h
+.\os_cpu_c.o: ..\ARM\..\APP\Includes.h
+.\os_cpu_c.o: ..\ARM\..\APP\..\uCosii\os_cpu.h
+.\os_cpu_c.o: ..\ARM\..\APP\os_cfg.h
+.\os_cpu_c.o: ..\ARM\..\APP\..\uCosii\ucos_ii.h
+.\os_cpu_c.o: G:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\os_cpu_c.o: ..\ARM\..\APP\LPC214x.h
+.\os_cpu_c.o: G:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\os_cpu_c.o: G:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\os_cpu_c.o: G:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\os_cpu_c.o: G:\Keil\ARM\ARMCC\bin\..\include\setjmp.h
+.\os_cpu_c.o: G:\Keil\ARM\ARMCC\bin\..\include\rt_misc.h
+.\os_cpu_c.o: ..\ARM\..\APP\target.h

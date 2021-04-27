@@ -1,0 +1,20 @@
+--cpu ARM7TDMI
+".\main.o"
+".\target.o"
+".\irq.o"
+".\startup.o"
+".\os_core.o"
+".\os_flag.o"
+".\os_mbox.o"
+".\os_mem.o"
+".\os_mutex.o"
+".\os_q.o"
+".\os_sem.o"
+".\os_task.o"
+".\os_time.o"
+".\os_cpu_a.o"
+".\os_cpu_c.o"
+--strict --scatter "..\APP\mem_a.scf"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\porting.map" -o .\porting.axf
