@@ -10,17 +10,17 @@ OBJECTIVE :
 
 HARDWARE REQUIREMENTS:
 
-  1.LPC2138/48 (Micro-controller)
+    1.LPC2138/48 (Micro-controller)
  
-  2.4x3 Keypad
+    2.4x3 Keypad
   
-  3.16x2 LCD Screen
+    3.16x2 LCD Screen
   
 SOFTWARE REQUIREMENTS:
 
-  1.Keil µVision 4.74
+    1.Keil µVision 4.74
   
-  2.Proteus 8.10 Professional
+    2.Proteus 8.10 Professional
 
 
 
